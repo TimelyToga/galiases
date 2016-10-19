@@ -17,5 +17,5 @@ git s 	# Works like `git status`
 To ever examine git aliases, run:
 
 ```shell
-git config --list
+git config --get-regexp alias
 ```
