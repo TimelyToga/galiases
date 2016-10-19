@@ -20,5 +20,6 @@ createGitAlias pm "push origin master"
 createGitAlias fpm "push -f origin master"
 createGitAlias phm "push heroku master"
 createGitAlias fph "push -f heroku master"
+createGitAlias su "branch --set-upstream-to"
 
 echo '\n\n'$NUM 'aliases have been created. Enjoy the better life that I have given you.\n'
